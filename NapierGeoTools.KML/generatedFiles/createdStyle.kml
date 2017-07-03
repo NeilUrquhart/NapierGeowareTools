@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Style id="TestStyle">
+      <IconStyle id="iconstyle">
+        <color>ffffffff</color>
+        <colorMode>normal</colorMode>
+        <scale>1.0</scale>
+        <heading>10.0</heading>
+        <Icon>
+          <href>test</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle id="labelstyle">
+        <color>ffffffff</color>
+        <colorMode>random</colorMode>
+        <scale>1.5</scale>
+      </LabelStyle>
+      <LineStyle id="linestyle">
+        <color>ffffffff</color>
+        <colorMode>normal</colorMode>
+        <width>1.0</width>
+        <gx:outerColor>ffffffff</gx:outerColor>
+        <gx:outerWidth>1.0</gx:outerWidth>
+        <gx:physicalWidth>1.0</gx:physicalWidth>
+        <gx:labelVisibility>1</gx:labelVisibility>
+      </LineStyle>
+      <PolyStyle id="polystyle">
+        <color>ffffffff</color>
+        <colorMode>normal</colorMode>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+  </Document>
+</kml>

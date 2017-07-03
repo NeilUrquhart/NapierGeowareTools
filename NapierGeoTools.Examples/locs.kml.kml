@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>A</name>
+      <Point>
+        <coordinates>-3.2193457,55.932645099999995,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>B</name>
+      <Point>
+        <coordinates>-3.1993457000000003,55.9246451,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>center</name>
+      <Point>
+        <coordinates>-3.2093457,55.9286451,0.0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

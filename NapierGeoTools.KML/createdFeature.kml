@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Placemark id="idtest">
+      <name>featureTest</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <description>test</description>
+      <LookAt>
+        <gx:TimeStamp>
+          <when>1994</when>
+        </gx:TimeStamp>
+        <longitude>-122.363</longitude>
+        <latitude>37.81</latitude>
+        <altitude>2000.0</altitude>
+        <heading>0.0</heading>
+        <tilt>45.0</tilt>
+        <range>500.0</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <TimeSpan>
+        <begin>1994</begin>
+        <end>1995</end>
+      </TimeSpan>
+      <Style id="TestStyle">
+        <IconStyle id="iconstyle">
+          <color>ffffffff</color>
+          <colorMode>normal</colorMode>
+          <scale>1.0</scale>
+          <heading>10.0</heading>
+          <Icon>
+            <href>test</href>
+          </Icon>
+        </IconStyle>
+        <LineStyle id="linestyle">
+          <color>ffffffff</color>
+          <colorMode>normal</colorMode>
+          <width>1.0</width>
+          <gx:outerColor>ffffffff</gx:outerColor>
+          <gx:outerWidth>1.0</gx:outerWidth>
+          <gx:physicalWidth>1.0</gx:physicalWidth>
+          <gx:labelVisibility>1</gx:labelVisibility>
+        </LineStyle>
+      </Style>
+      <styleUrl>TestStyle</styleUrl>
+      <Point id="point">
+        <extrude>0</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-122.0822035425683,37.42228990140251,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <LineString id="linestring">
+        <gx:altitudeOffset>0.0</gx:altitudeOffset>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <gx:drawOrder>0</gx:drawOrder>
+        <coordinates>-122.0822035425683,37.42228990140251,0.0 -125.0822035425683,37.42228990140251,0.0 -126.0822035425683,50.42228990140251,0.0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <Polygon id="polygon">
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-122.366278,37.818844,30.0 -122.365248,37.819267,30.0 -122.36564,37.819861,30.0 -122.366669,37.819429,30.0 -122.366278,37.818844,30.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+        <innerBoundaryIs>
+          <LinearRing>
+            <coordinates>-122.366212,37.818977,30.0 -122.365424,37.819294,30.0 -122.365704,37.819731,30.0 -122.366488,37.819402,30.0 -122.366212,37.818977,30.0</coordinates>
+          </LinearRing>
+        </innerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark id="pin2">
+      <name>New Placemark</name>
+      <description>blabla</description>
+      <styleUrl>TestStyle</styleUrl>
+      <Point>
+        <coordinates>170.1426332867125,-43.61725568991338,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <gx:Tour>
+      <gx:Playlist>
+        <gx:SoundCue id="soundcue">
+          <href>test</href>
+          <gx:delayedStart>1.0</gx:delayedStart>
+        </gx:SoundCue>
+        <gx:FlyTo id="flyto">
+          <gx:duration>5.0</gx:duration>
+          <gx:flyToMode>bounce</gx:flyToMode>
+          <Camera id="camera">
+            <longitude>170.157</longitude>
+            <latitude>-43.671</latitude>
+            <altitude>9700.0</altitude>
+            <heading>-6.0</heading>
+            <tilt>33.0</tilt>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="wait">
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+        <gx:TourControl id="tourcontrol">
+          <gx:playMode>pause</gx:playMode>
+        </gx:TourControl>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>

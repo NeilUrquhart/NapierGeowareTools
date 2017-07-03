@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<Placemark>
+			<name>featureTest</name>
+			<visibility>1</visibility>
+			<open>0</open>
+			<description>test</description>
+			<LookAt>
+				<gx:TimeStamp>
+					<when>1994</when>
+				</gx:TimeStamp>
+				<longitude>-122.363</longitude>
+				<latitude>37.81</latitude>
+				<altitude>2000.0</altitude>
+				<heading>0.0</heading>
+				<tilt>45.0</tilt>
+				<range>500.0</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<TimeSpan>
+				<begin>1994</begin>
+				<end>1995</end>
+			</TimeSpan>
+			<Style id="TestStyle">
+				<IconStyle id="iconstyle">
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1.0</scale>
+					<heading>10.0</heading>
+					<Icon>
+						<href>test</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<styleUrl>TestStyle</styleUrl>
+			<Point id="point">
+				<extrude>0</extrude>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>-122.0822035425683,37.42228990140251,0.0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>

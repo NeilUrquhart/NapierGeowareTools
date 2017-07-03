@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<Placemark>
+			<LineString id="linestring">
+				<gx:altitudeOffset>0.0</gx:altitudeOffset>  
+				<extrude>1</extrude>                    
+				<tessellate>0</tessellate>               
+				<altitudeMode>clampToGround</altitudeMode>
+				<gx:drawOrder>0</gx:drawOrder>        
+				<coordinates>-122.0822035425683,37.42228990140251,0.0 -125.0822035425683,37.42228990140251,0.0 -126.0822035425683,50.42228990140251,0.0</coordinates>           
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
+

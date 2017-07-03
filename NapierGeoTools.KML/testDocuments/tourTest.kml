@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<gx:Tour>
+			<gx:Playlist>
+				<gx:SoundCue id="soundcue">
+					<href>test</href> 
+					<gx:delayedStart>1.0</gx:delayedStart>          
+				</gx:SoundCue>
+				<gx:FlyTo id="flyto">
+					<gx:duration>5.0</gx:duration>        
+					<gx:flyToMode>bounce</gx:flyToMode>    
+					<Camera id="camera">
+						<longitude>170.157</longitude>
+						<latitude>-43.671</latitude>
+						<altitude>9700.0</altitude>
+						<heading>-6.0</heading>
+						<tilt>33.0</tilt>
+					</Camera>
+				</gx:FlyTo>
+				<gx:Wait id="wait">
+					<gx:duration>2.0</gx:duration> 
+				</gx:Wait>
+				<gx:TourControl id="tourcontrol">
+					<gx:playMode>pause</gx:playMode>   
+				</gx:TourControl>
+			</gx:Playlist>
+		</gx:Tour>
+	</Document>
+</kml>
+

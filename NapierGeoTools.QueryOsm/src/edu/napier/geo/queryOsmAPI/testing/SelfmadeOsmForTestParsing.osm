@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<meta osm_base="2017-02-02T20:44:04Z"/>
+
+  <bounds minlat="50.5314" minlon="8.438" maxlat="50.5897" maxlon="8.6124"/>
+
+  <node id="20870479" lat="50.5400539" lon="8.5797300" version="8" timestamp="2010-07-18T21:53:48Z" changeset="5255674" uid="35560" user="Peilscheibe">
+    <tag k="TagFromNode1" v="TagFromNode1"/>
+  </node>
+    <node id="256034790" lat="50.5400540" lon="8.5797301" version="8" timestamp="2010-07-18T21:53:48Z" changeset="5255674" uid="35560" user="Peilscheibe">
+    <tag k="TagFromNode2" v="TagFromNode3"/>
+  </node>
+  <way id="23634594" version="2" timestamp="2010-06-19T09:44:13Z" changeset="5022203" uid="167846" user="chrysophylax">
+    <nd ref="20870479"/>
+    <nd ref="256034790"/>
+    <tag k="TagFromWay1" v="TagFromWay2"/>
+    <tag k="TagFromWay3" v="TagFromWay1"/>
+    <tag k="TagFromWay4" v="TagFromWay5"/>
+  </way>
+</osm>

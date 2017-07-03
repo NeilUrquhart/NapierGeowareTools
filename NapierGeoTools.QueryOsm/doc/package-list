@@ -1,0 +1,4 @@
+edu.napier.geo.common
+edu.napier.geo.queryOsmAPI.model
+edu.napier.geo.queryOsmAPI.osmFacade
+edu.napier.geo.queryOsmAPI.testing
